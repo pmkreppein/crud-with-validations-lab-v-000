@@ -1,5 +1,5 @@
 class ChangeSongReleasedYearSpelling < ActiveRecord::Migration
   def change
-    rename c
+    rename_column :songs :released_year, :release_year
   end
 end
