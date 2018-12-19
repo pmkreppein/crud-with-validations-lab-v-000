@@ -1,2 +1,3 @@
-class Song < ActiveRecord::Base
+class Song < ActiveRecord::
+  validates
 end
